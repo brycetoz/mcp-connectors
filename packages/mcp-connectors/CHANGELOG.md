@@ -1,5 +1,48 @@
 # Changelog
 
+## [0.0.23](https://github.com/brycetoz/mcp-connectors/compare/mcp-connectors-v0.0.22...mcp-connectors-v0.0.23) (2025-11-05)
+
+
+### Features
+
+* add GitLab MCP connector ([#154](https://github.com/brycetoz/mcp-connectors/issues/154)) ([c853ed9](https://github.com/brycetoz/mcp-connectors/commit/c853ed936935d420f59fdf79437120afad8eb8e2))
+* add Google Maps MCP connector ([#92](https://github.com/brycetoz/mcp-connectors/issues/92)) ([55988d0](https://github.com/brycetoz/mcp-connectors/commit/55988d00d0e2f72f3a9999ff25ecf26d137cbde3))
+* add Graphy connector with board and dataset management ([#125](https://github.com/brycetoz/mcp-connectors/issues/125)) ([ab7c6aa](https://github.com/brycetoz/mcp-connectors/commit/ab7c6aa4f29a56aafdbd67f4fcc0f13105edb938))
+* add Modal connector with sandbox execution and logging tools ([#64](https://github.com/brycetoz/mcp-connectors/issues/64)) ([c0c377c](https://github.com/brycetoz/mcp-connectors/commit/c0c377ccea42c04b7186e49ab4fad58d4aa950f1))
+* add ProductHunt connector ([#67](https://github.com/brycetoz/mcp-connectors/issues/67)) ([e660c90](https://github.com/brycetoz/mcp-connectors/commit/e660c90b64f19ba005bcd1b3ee4af28ee47215b9))
+* add Strava MCP connector ([#46](https://github.com/brycetoz/mcp-connectors/issues/46)) ([e6144a5](https://github.com/brycetoz/mcp-connectors/commit/e6144a5adfcd19d5bc89ad593e4006a9acefb798))
+* add supermemory and openai docs ([#76](https://github.com/brycetoz/mcp-connectors/issues/76)) ([3694e59](https://github.com/brycetoz/mcp-connectors/commit/3694e592ce3a7691e9506075f133182afc56392f))
+* build server from connector ([#26](https://github.com/brycetoz/mcp-connectors/issues/26)) ([3769cfa](https://github.com/brycetoz/mcp-connectors/commit/3769cfaf0728e34e54ea0e7d6eb1b74a6777f1fa))
+* education on connectors ([#33](https://github.com/brycetoz/mcp-connectors/issues/33)) ([5d8907a](https://github.com/brycetoz/mcp-connectors/commit/5d8907a416dfde610b9b31811cd02a02da2852aa))
+* hubspot connector ([#85](https://github.com/brycetoz/mcp-connectors/issues/85)) ([bad1f34](https://github.com/brycetoz/mcp-connectors/commit/bad1f3429d57b94093e26156013b33cbe4c02bf2))
+* improve LinkedIn connector credential setup instructions ([#145](https://github.com/brycetoz/mcp-connectors/issues/145)) ([b0bca2c](https://github.com/brycetoz/mcp-connectors/commit/b0bca2c9bff29c00ad6d87556c2c73f3540d71ae))
+* point to correct mcp-config types ([#28](https://github.com/brycetoz/mcp-connectors/issues/28)) ([066b4d1](https://github.com/brycetoz/mcp-connectors/commit/066b4d10f38f6c528eeb692ed58e8245c0fe288d))
+* posthog mcp server ([#146](https://github.com/brycetoz/mcp-connectors/issues/146)) ([954700a](https://github.com/brycetoz/mcp-connectors/commit/954700a4ed8b255676fc613c5fabd6f74fcf6e97))
+* release main ([#147](https://github.com/brycetoz/mcp-connectors/issues/147)) ([0d49a12](https://github.com/brycetoz/mcp-connectors/commit/0d49a126a1999ed9588662efaf1bf1a02ea2da8c))
+* release please ([#142](https://github.com/brycetoz/mcp-connectors/issues/142)) ([33fd4f6](https://github.com/brycetoz/mcp-connectors/commit/33fd4f6b8b74c5216c1740f4cdb9854b48673609))
+* remove @stackone/mcp-config-types and migrate to native MCP SDK ([#175](https://github.com/brycetoz/mcp-connectors/issues/175)) ([2a31911](https://github.com/brycetoz/mcp-connectors/commit/2a31911dd0d1efdc3e8409b405607c0de1890079))
+* retool connector ([#84](https://github.com/brycetoz/mcp-connectors/issues/84)) ([6226f2f](https://github.com/brycetoz/mcp-connectors/commit/6226f2fea70e7b4322682c0b4dbe081d9f2546b8))
+* ridewithgps full server ([#123](https://github.com/brycetoz/mcp-connectors/issues/123)) ([2d9eb81](https://github.com/brycetoz/mcp-connectors/commit/2d9eb81c495feb4b84b5d2f11eb703b2edde328d))
+* TFL server - Team 6 ([#108](https://github.com/brycetoz/mcp-connectors/issues/108)) ([128a723](https://github.com/brycetoz/mcp-connectors/commit/128a723ec1b23d4beb89c907fec4e542399570e4))
+* todo list connector first pass ([#99](https://github.com/brycetoz/mcp-connectors/issues/99)) ([0198682](https://github.com/brycetoz/mcp-connectors/commit/01986829c589730b6f45ac76a22865662bcb856a))
+* **tooling:** monorepo for packages ([#19](https://github.com/brycetoz/mcp-connectors/issues/19)) ([cb90c84](https://github.com/brycetoz/mcp-connectors/commit/cb90c84165aaa41b038d846eb72f5969e470428c))
+* zapier connection ([#97](https://github.com/brycetoz/mcp-connectors/issues/97)) ([73072ab](https://github.com/brycetoz/mcp-connectors/commit/73072ab1606e4e287130ac490fc7b7e3abea4b85))
+
+
+### Bug Fixes
+
+* enhance Notion connector with comprehensive improvements ([#70](https://github.com/brycetoz/mcp-connectors/issues/70)) ([ff0627a](https://github.com/brycetoz/mcp-connectors/commit/ff0627afae96223b5231641b2b01a2ac8681f872))
+* handle missing/undefined fields in parallel connector ([#36](https://github.com/brycetoz/mcp-connectors/issues/36)) ([3b20a9e](https://github.com/brycetoz/mcp-connectors/commit/3b20a9e58562681aff78f66ec63c97f7920ebaa1))
+* logos to use disco ([#31](https://github.com/brycetoz/mcp-connectors/issues/31)) ([5c5f734](https://github.com/brycetoz/mcp-connectors/commit/5c5f7344e022f33f1d8bdd098c94fcfdfb5e44f1))
+* move to build packages from dev ([#24](https://github.com/brycetoz/mcp-connectors/issues/24)) ([95be04c](https://github.com/brycetoz/mcp-connectors/commit/95be04cb19864f8f59520079a5ff3a817f7b235a))
+* parallel logo ([#40](https://github.com/brycetoz/mcp-connectors/issues/40)) ([6797adf](https://github.com/brycetoz/mcp-connectors/commit/6797adffade2a6517705b1ea53b228a124feebe3))
+* parallel substring error ([#38](https://github.com/brycetoz/mcp-connectors/issues/38)) ([5d0717f](https://github.com/brycetoz/mcp-connectors/commit/5d0717f551b8f64487f241570981d866f0f1ebb1))
+* remove mcp-config-types package from GitHub workflows and documentation ([#178](https://github.com/brycetoz/mcp-connectors/issues/178)) ([b404a0b](https://github.com/brycetoz/mcp-connectors/commit/b404a0bcb518038f4b03463ed050b6a30e86e9b0))
+* remove unused files from bundle ([#43](https://github.com/brycetoz/mcp-connectors/issues/43)) ([60e1c48](https://github.com/brycetoz/mcp-connectors/commit/60e1c48f9842de0f6023ae0d7a084cd00798acfd))
+* speed up types ([#22](https://github.com/brycetoz/mcp-connectors/issues/22)) ([37cc140](https://github.com/brycetoz/mcp-connectors/commit/37cc140f239ec13b520689fa59643aa7a4f03043))
+* update Jira connector to use new JQL search endpoint ([#163](https://github.com/brycetoz/mcp-connectors/issues/163)) ([02a2759](https://github.com/brycetoz/mcp-connectors/commit/02a275995a63f2cd3fe5ac01a8ae308b4af59852))
+* update Modal connector implementation ([#119](https://github.com/brycetoz/mcp-connectors/issues/119)) ([d486e18](https://github.com/brycetoz/mcp-connectors/commit/d486e18f94d80d0aaabc92b9a687ee860f98e984))
+
 ## [0.0.22](https://github.com/StackOneHQ/mcp-connectors/compare/mcp-connectors-v0.0.21...mcp-connectors-v0.0.22) (2025-10-17)
 
 
